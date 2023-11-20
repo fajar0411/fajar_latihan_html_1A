@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontak belajar html</title>
+    <link rel="stylesheet" href="Subfolder/style.css" />
+</head>
+<body>
+  <!--Menu website-->
+  <div id="page" class="page">
+    <ul class="navbar">
+       <h1>Fajar</h1>
+       <li><a href="../index.html">Home</a></li>
+       <li><a href="../Menu_pendukung/kontak.html">Kontak</a></li>
+       <li><a href="../Menu_pendukung/Subfolder/profile.html">Profile</a></li>
+   </ul>
+</div>
+
+  <div>
+    <h1>Kontak belajar HTML</h1> 
+    <img src="polsub.png" height="100" width="100">
+    <h2>Mari belajar Membuat website Frontend</h2>
+  </div>
+
+  <table border="1">
+    <caption>Daftar murid MI</caption>
+    <tr>
+        <th>Nama murid</th>
+        <th>Kota asal</th>
+    </tr>
+    <tr>
+        <td>Andy</td>
+        <td>Subang</td>
+    </tr>
+    <tr>
+        <td>Rini</td>
+        <td>Surabaya</td>
+    </tr>
+    <tr>
+       <td>Fajar</td>
+       <td>Subang</td>
+    </tr>
+  </table>
+<!--list pada HTML-->
+<ul>
+    <li>Joko</li>
+    <li>Budi</li>
+    <li>Japar</li>
+</ul>
+
+<ol>
+    <li>Rini</li>
+    <li>Susi</li>
+    <li>pupus</li>
+</ol>
+
+<dl>
+    <dt>Joko</dt>
+    <dd>User pertama</dd>
+    <dt>Yandi</dt>
+    <dd>User kedua</dd>
+</dl>
+
+<!--Membuat From-->
+<form>
+    <label for="nama user" >Nama</label>
+    <input type="text" placeholder="Nama User" id="nama_user">
+    <br>
+    <label for="pesan_user">pesan</label>
+    <textarea cols="100" rows="7">pesan saya adalah</textarea>
+</form>
+
+<br>
+<label>Hobi</label><br>
+<input type="checkbox" name="hobi_user" value="0" checked=""> Menggambar <br>
+<input type="checkbox" name="hobi_user" value="1">Menulis <br>
+<input type="checkbox" name="hobi_user" value="2">Menyanyi
+<br>
+<label>Jenis Kelamin</label><br>
+<input type="radio" name="gender" value="0" checked="">Laki-Laki <br>
+<input type="radio" name="gender" value="1"> perempuan
+
+<label>pelajaran</label>
+<select>
+    <optgroup label="backend">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+    </optgroup>
+    <optgroup label="backend">
+        <option value="js">JS</option>
+        <option value="db">DATABASE</option>
+    </optgroup>
+</select>
+<input type="submit" value="Kirim Data">
+
+</body>
+</html>
