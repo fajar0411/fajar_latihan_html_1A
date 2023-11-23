@@ -1,96 +1,97 @@
 *,
-html{
-    margin: 0;
-    padding:0;
+html {
+  margin: 0;
+  padding: 0;
 }
-#page{
-    background-color: rgb(17, 17, 220);
-    list-style-type: none;
-    padding: 20px;
-
-}    
-
+#page {
+  background-color: rgb(17, 17, 220);
+  list-style-type: none;
+  padding: 20px;
+}
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
 }
 
-.navbar li>a{
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-left: 20px;
-    color: rgb(6, 6, 6);
-    background-color: white;
+.navbar li > a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  color: rgb(6, 6, 6);
+  background-color: white;
 }
 
 .text {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-.social a{
-    text-decoration: none;
-    color:  white;
-    font-size: 15px;
-    margin-left: 30px;
-    text-align: center;
-    background-color:blue;
-    padding: 10px;
-    border-radius: 15px;
-    width: 150px;
-    margin:auto;
-}
-.header{
-    padding : 15px;
-    text-align: center;
-}
-.social {
-    text-align: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .social a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    width: 150px;
-    background-color: blue;
-    padding: 10px;
-    border-radius: 15px;
-    display: inline-block; 
-    margin-bottom: 10px; 
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  margin: auto;
+}
+.header {
+  padding: 15px;
+  text-align: center;
+}
+.social {
+  text-align: center;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .social a:last-child {
-    margin-left: auto;}
-    #logo {
-        position: relative;
-    }
+  margin-left: auto;
+}
+#logo {
+  position: relative;
+}
 
-    #logo img {
-        position: absolute;
-        height: 100px;
-        width: auto; 
-    }
+#logo img {
+  position: absolute;
+  height: 100px;
+  width: auto;
+}
 
-    .polsub {
-        position: relative;
-        left: 18;
-        bottom: 15px;
-    }
+.polsub {
+  position: relative;
+  left: 7;
+  bottom: 15px;
+}
 
-    .kemendikbud {
-        position: relative;
-        right: 0;
-        bottom : 13px;
-        
-    }
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
+.kemendikbud {
+  position: relative;
+  right: 0;
+  bottom: 13px;
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
+body {
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
